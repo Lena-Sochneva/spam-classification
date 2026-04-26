@@ -1,13 +1,13 @@
 # Spam Classification (SMS)
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on detecting spam messages using classical machine learning and NLP techniques.
 
 The goal is to build a model that can effectively distinguish between spam and legitimate (ham) messages, while analyzing trade-offs between precision and recall.
 
 ---
 
-## 📊 Dataset
+## Dataset
 - SMS Spam Collection Dataset
 - Total messages: 5572
 - Spam: ~13.4%
@@ -15,7 +15,7 @@ The goal is to build a model that can effectively distinguish between spam and l
 
 ---
 
-## ⚙️ Approach
+## Approach
 
 ### 1. Data Analysis (EDA)
 - Checked class imbalance
@@ -44,7 +44,7 @@ Used:
 
 ---
 
-## 📊 Results
+## Results
 
 ### Baseline Model
 - Precision: 1.00
@@ -59,7 +59,7 @@ Used:
 
 ---
 
-## ⚖️ Threshold Tuning
+## Threshold Tuning
 
 Model performance depends on decision threshold:
 
@@ -75,15 +75,7 @@ Example:
 
 ---
 
-## 📌 Key Insights
-- Class imbalance significantly affects model behavior
-- TF-IDF works well for text classification
-- Adding n-grams improves context understanding
-- Threshold tuning is critical for real-world applications
-
----
-
-## 🛠 Tech Stack
+## Tech Stack
 - Python
 - pandas, numpy
 - scikit-learn
@@ -91,7 +83,6 @@ Example:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Try LinearSVC
 - Use transformer models (e.g. Hugging Face)
-- Deploy as API or simple web app
