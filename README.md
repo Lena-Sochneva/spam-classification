@@ -33,7 +33,7 @@ The goal is to build a model that can effectively distinguish between spam and l
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 Due to class imbalance, accuracy is not reliable.
 
 Used:
